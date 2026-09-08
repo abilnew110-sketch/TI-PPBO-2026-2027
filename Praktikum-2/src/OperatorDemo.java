@@ -6,5 +6,10 @@ public class OperatorDemo {
         System.out.println("kali: " + (a * b));
         System.out.println("bagi: " + (a / b));
         System.out.println("sisa bagi: " + (a % b));
+
+        int nilaiUjian = 80;
+        boolean hadir = true;
+        System.out.println("Lulus (>=75): " + (nilaiUjian >=75));
+        System.out.println("Lulus DAN hadir: " + (nilaiUjian >= 75 && hadir));
     }
 }
