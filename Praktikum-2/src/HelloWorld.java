@@ -1,8 +1,8 @@
 public class HelloWorld {
     public static void main(String[] args){
-        System.out.print("nama: ");
-        System.out.print("Budi");
-        System.out.println();
-        System.out.println("ini baris baru");
+        //baris untuk menampilkan nama sederhana
+        System.out.println("nama : Budi");
+        /* baris untuk mencetak nim*/
+        System.out.println("NIM: 12345");
     }
 }
