@@ -1,13 +1,10 @@
 public class BiodataSaya {
     public static void main(String[] args) {
-        int umur = 20;
-        double tinggi = 167.5;
-        char inisial = 'A';
-        boolean StatusMahasiswaAktif = true;
-
-        System.out.println("umur : " + umur);
-        System.out.println("tinggi : "+ tinggi);
-        System.out.println("inisial : " + inisial);
-        System.out.println("status mahasiswa aktif : " + StatusMahasiswaAktif);
+        //C menyimpan angka
+        double C = 16.00;
+        //konversi suhu celcius ke fahrenheit
+        double F = (C * 9/5 + 32);
+        //menampilkan nilai yang akan di konversikan
+        System.out.println(C + " derajat celcius = " + F + " derajat fahrenheit");
     }
 }
