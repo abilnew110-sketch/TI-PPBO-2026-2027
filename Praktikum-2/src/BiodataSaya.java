@@ -1,10 +1,23 @@
+import java.util.Scanner;
+
 public class BiodataSaya {
     public static void main(String[] args) {
-        //C menyimpan angka
-        double C = 16.00;
-        //konversi suhu celcius ke fahrenheit
-        double F = (C * 9/5 + 32);
-        //menampilkan nilai yang akan di konversikan
-        System.out.println(C + " derajat celcius = " + F + " derajat fahrenheit");
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Masukkan angka1: ");
+        int angka1 = sc.nextInt();
+
+        System.out.print("Masukkan angka2: ");
+        int angka2 = sc.nextInt();
+
+        System.out.println("Jumlah : " + (angka1 + angka2));
+        System.out.println("Selisih : " + (angka1 - angka2));
+        System.out.println("kali : " + (angka1 * angka2));
+        System.out.println("bagi : " + (angka1 / angka2));
+        System.out.println("sisa bagi : " + (angka1 % angka2));
+
+        System.out.println(angka1 + " > " + angka2 + " : " + (angka1 > angka2));
+        System.out.println(angka1 + " < " + angka2 + " : " + (angka1 < angka2));
+        System.out.println(angka1 + " == " + angka2 + " : " + (angka1 == angka2));
     }
 }
