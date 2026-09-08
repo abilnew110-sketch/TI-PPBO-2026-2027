@@ -3,7 +3,7 @@ public class VariabelDemo {
         String nama = "Siti";
         int umur = 20;
         double tinggi = 165.5;
-        char golDarah = 0;
+        char golDarah = 'O';
         boolean mahasiswaAktif = true;
 
         System.out.println("Nama : "+nama);
