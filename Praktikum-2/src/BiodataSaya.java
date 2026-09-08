@@ -1,5 +1,13 @@
 public class BiodataSaya {
     public static void main(String[] args) {
-        System.out.print("nama saya Abdul Razak - 2025573010068");
+        int umur = 20;
+        double tinggi = 167.5;
+        char inisial = 'A';
+        boolean StatusMahasiswaAktif = true;
+
+        System.out.println("umur : " + umur);
+        System.out.println("tinggi : "+ tinggi);
+        System.out.println("inisial : " + inisial);
+        System.out.println("status mahasiswa aktif : " + StatusMahasiswaAktif);
     }
 }
