@@ -4,6 +4,8 @@ public class IfDemo {
 
         if (nilai >= 75) {
             System.out.println("anda lulus");
+        } else{
+            System.out.println("anda tidak lulus");
         }
     }
 }
