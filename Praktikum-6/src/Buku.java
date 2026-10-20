@@ -1,14 +1,18 @@
 public class Buku {
     String judul;
     String pengarang;
-    String tahunTerbit;
+    int tahunTerbit;
 
     public Buku(){
         judul = "langit berwarna biru";
         pengarang = "Abdul";
-        tahunTerbit = "2025";
+        tahunTerbit = 2025;
     }
-    public Buku(String judul, String pengarang, String tahunTerbit) {
+    public Buku(String judul, int tahunTerbit) {
+        this.judul = judul;
+        this.tahunTerbit = tahunTerbit;
+    }
+    public Buku(String judul, String pengarang, int tahunTerbit) {
         this.judul = judul;
         this.pengarang = pengarang;
         this.tahunTerbit = tahunTerbit;
