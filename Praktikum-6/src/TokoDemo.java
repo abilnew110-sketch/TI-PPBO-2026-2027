@@ -21,6 +21,7 @@ public class TokoDemo {
                 produkMahal = daftarProduk[i];
             }
         }
-        System.out.println("Produk Termahal: " + produkMahal.namaProduk + " dengan harga: " + produkMahal.harga);
+        System.out.println("Produk Termahal: " + produkMahal.namaProduk +
+                " dengan harga: " + produkMahal.harga);
     }
 }
