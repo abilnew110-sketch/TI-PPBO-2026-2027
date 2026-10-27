@@ -31,4 +31,11 @@ public class Mahasiswa {
     public boolean isCumlaude(){
         return ipk >= 3.5;
     }
+    public void setIpk(double ipk){
+        if(ipk >= 0.0 && ipk <= 4.0){
+            this.ipk = ipk;
+        } else {
+            System.out.println("Ipk tidak valid, harus 0.0 - 4.0");
+        }
+    }
 }
