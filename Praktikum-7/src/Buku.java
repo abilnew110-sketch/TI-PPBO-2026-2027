@@ -1,7 +1,17 @@
 public class Buku {
-    String judul;
-    String pengarang;
-    int tahunTerbit;
+    private String judul;
+    private String pengarang;
+    private int tahunTerbit;
+
+    public String getJudul(){
+        return judul;
+    }
+    public String getPengarang(){
+        return pengarang;
+    }
+    public int getTahunTerbit(){
+        return tahunTerbit;
+    }
 
     public Buku(){
         judul = "langit berwarna biru";
