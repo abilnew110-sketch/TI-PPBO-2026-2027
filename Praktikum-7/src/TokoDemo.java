@@ -11,9 +11,9 @@ public class TokoDemo {
             p.tampilkanData();
         }
         System.out.println("Membeli 2 " + daftarProduk[1].namaProduk);
-        daftarProduk[1].kurangStock(2);
+        daftarProduk[1].kurangiStock(2);
         System.out.println("Membeli 5 " + daftarProduk[2].namaProduk);
-        daftarProduk[2].kurangStock(5);
+        daftarProduk[2].kurangiStock(5);
 
         Produk produkMahal = daftarProduk[0];
         for(int i = 0; i < daftarProduk.length; i++){
