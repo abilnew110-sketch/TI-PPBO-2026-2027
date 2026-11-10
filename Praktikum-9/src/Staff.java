@@ -4,6 +4,7 @@ public class Staff extends Pegawai{
         return tunjanganKerja;
     }
 
+    @Override
     public double hitungGaji(){
         return gajiPokok + tunjanganKerja;
     }
