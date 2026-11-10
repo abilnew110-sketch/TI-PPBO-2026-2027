@@ -3,6 +3,7 @@ public class Kucing extends Hewan{
         super(nama);
     }
 
+    @Override
     public void bersuara() {
         System.out.println(nama + ": Meong ");
     }
