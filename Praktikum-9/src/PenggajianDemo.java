@@ -12,5 +12,8 @@ public class PenggajianDemo {
             totalGaji += gaji;
         }
         System.out.println("Total Gaji: " + totalGaji);
+
+        Direktur d = new Direktur("Razak","2025",1500000,500000,250000);
+        System.out.println("Gaji Direktur: " + d.hitungGaji());
     }
 }
